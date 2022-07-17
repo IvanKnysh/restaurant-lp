@@ -87,3 +87,35 @@
     }
   }
 }
+
+@media (max-width: 1320px) {
+  .bl-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+    .flx {
+      flex-wrap: wrap;
+      .block-1 {
+        display: none;
+      }
+      .block-2 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .bl-5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .flx {
+      .block-2 {
+        form {
+          .field {
+            width: calc(50% - 10px);
+          }
+        }
+      }
+    }
+  }
+}

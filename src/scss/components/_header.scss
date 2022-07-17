@@ -37,3 +37,27 @@
     }
   }
 }
+
+@media (max-width: 1320px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h1 {
+      font-size: 60px;
+      line-height: 70px;
+    }
+    .flx {
+      flex-wrap: wrap;
+      a {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
