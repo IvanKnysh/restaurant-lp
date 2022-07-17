@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;
+
+0,700;1,400&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
