@@ -1,0 +1,49 @@
+.bl-1 {
+  position: relative;
+  background: url("../img/bl-1-bg.jpeg") 50% 50%;
+  padding: 100px 0;
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: linear-gradient(270deg, #F4F2F2 18.35%, #FFFFFF 84.09%);
+    box-shadow: inset 0 4px 40px rgba(0, 0, 0, 0.1);
+    opacity: 0.97;
+    z-index: 1;
+  }
+  .flx {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    .block-1 {
+      width: calc(50% - 120px);
+      text-align: center;
+      h2 {
+        font-family: 'Yeseva One', serif;
+        font-size: 36px;
+        color: $mustard;
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 29px;
+        color: $gray;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      img.img {
+        margin-left: 70px;
+      }
+    }
+    .block-2 {
+      width: calc(50% - 120px);
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.bl-2 {
+  background: url("../img/bl-2-bg.jpeg") center/cover;
+  padding: 100px 0;
+  .block {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px 80px;
+    text-align: center;
+    box-sizing: border-box;
+    h2 {
+      color: #FFFFFF;
+      font-size: 36px;
+      font-family: 'Yeseva One', serif;
+      margin-bottom: 24px;
+    }
+    p {
+      color: #FFFFFF;
+      font-size: 16px;
+      line-height: 29px;
+      margin-top: 26px;
+      margin-bottom: 50px;
+    }
+    .flx {
+      img {
+        margin: 0 10px;
+      }
+    }
+  }
+}

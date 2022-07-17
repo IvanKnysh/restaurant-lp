@@ -1,0 +1,30 @@
+.bl-4 {
+  background: url("../img/bl-4-bg.jpeg") center/cover;
+  padding: 100px 0;
+  .block {
+    width: 850px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 63px 80px;
+    text-align: center;
+    box-sizing: border-box;
+    h2 {
+      color: #FFFFFF;
+      font-family: 'Yeseva One', serif;
+      font-size: 36px;
+      margin-bottom: 68px;
+    }
+    p {
+      color: #FFFFFF;
+      font-size: 24px;
+      line-height: 42px;
+      font-family: 'Gentium Book Basic', serif;
+      span {
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+      }
+    }
+  }
+}
