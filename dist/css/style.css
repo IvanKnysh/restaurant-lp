@@ -213,7 +213,7 @@ body {
   border-bottom: 1px solid #CC9900;
   font-family: "Yeseva One", serif;
   font-size: 21px;
-  color: #CC9900;
+  color: #C89F2D;
   padding-bottom: 10px;
 }
 
@@ -260,6 +260,143 @@ body {
   margin-top: 50px;
 }
 
+.no-webp .bl-5{
+  background: url("../img/bl-1-bg.jpeg") 50% 50%; }
+
+.bl-5 {
+  position: relative;
+  padding: 100px 0;
+}
+
+.bl-5:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: linear-gradient(270deg, #F4F2F2 18.35%, #FFFFFF 84.09%);
+  box-shadow: inset 0 4px 40px rgba(0, 0, 0, 0.1);
+  opacity: 0.97;
+  z-index: 1;
+}
+
+.bl-5 .flx {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.bl-5 .flx .block-1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bl-5 .flx .block-1 img {
+  display: block;
+}
+
+.bl-5 .flx .block-2 {
+  width: calc(50% - 150px);
+  text-align: center;
+}
+
+.bl-5 .flx .block-2 h2 {
+  font-family: "Yeseva One", serif;
+  font-size: 36px;
+  text-align: center;
+  color: #CC9900;
+  margin-bottom: 24px;
+}
+
+.bl-5 .flx .block-2 p {
+  margin-top: 30px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.bl-5 .flx .block-2 form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.bl-5 .flx .block-2 form .field {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.bl-5 .flx .block-2 form .field label {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  font-size: 14px;
+  color: #C89F2D;
+  margin-bottom: 5px;
+}
+
+.bl-5 .flx .block-2 form .field input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #CC9900;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-style: italic;
+  box-sizing: border-box;
+  padding: 0 10px;
+  outline: none;
+}
+
+.bl-5 .flx .block-2 form button {
+  width: 190px;
+  height: 36px;
+  background: #C89F2D;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  display: block;
+  margin: 20px auto 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 50px 0;
+}
+
+.footer .flx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .flx .block {
+  width: calc(33.3333333333% - 50px);
+  text-align: center;
+}
+
+.footer .flx .block h3 {
+  font-family: "Yeseva One", serif;
+  font-size: 21px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.footer .flx .block p {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 29px;
+  margin-top: 37px;
+}
+
+.footer .flx .block p strong {
+  font-weight: 700;
+}
+
 .webp .header{ background: url(../img/header.webp) center/cover; }
 
 .webp .bl-1{ background: url(../img/bl-1-bg.webp) 50% 50%; }
@@ -269,3 +406,5 @@ body {
 .webp .bl-3{ background: url(../img/bl-3-bg.webp) 50% 50%; }
 
 .webp .bl-4{ background: url(../img/bl-4-bg.webp) center/cover; }
+
+.webp .bl-5{ background: url(../img/bl-1-bg.webp) 50% 50%; }
